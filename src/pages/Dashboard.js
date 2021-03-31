@@ -14,11 +14,16 @@ const Dashboard = () => {
   const updateFeatured = (heroId) => {
     let foundHero = heroData.find(hero => hero.id === +heroId);
     foundHero.featured = !foundHero.featured;
-    setAlert(true);
-    setTimeout(() => {
-      setAlert(false);
-    }, 2000)
+    showAlert();
   }
+
+  const showAlert = () => {
+  setAlert(true);
+  setTimeout(() => {
+    setAlert(false);
+  }, 2000)
+}
+
 
     return (
         <div id="Dashboard">

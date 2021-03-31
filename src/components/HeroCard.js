@@ -12,7 +12,7 @@ const HeroCard = ({hero, updateFeatured}) => {
               {hero.superhero === 'Batman' ? <GiBatMask /> : ''}{hero.superhero}</h4>
                 <h6 className="text-secondary">{hero.alter_ego}</h6>
                   <div className="my-2">
-                    <strong>First Apperance: </strong>
+                    <strong>First Apperance: </strong> <br />
                     {hero.first_appearance}
                   </div>
                   <div className="my-2">
