@@ -27,7 +27,7 @@ const HeroesPage = () => {
     setAlert(true);
     setTimeout(() => {
       setAlert(false);
-    }, 3500);
+    }, 4500);
   };
 
   const handleChange = event => {
