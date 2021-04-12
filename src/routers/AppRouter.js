@@ -2,6 +2,7 @@ import {Route, Switch} from 'react-router-dom';
 import DashboardPage from '../pages/Dashboard';
 import HeroesPage from '../pages/Heroes';
 import HeroPage from '../pages/Hero';
+import ArchivePage from '../pages/Archive';
 import Navbar from '../components/Navbar';
 
 const AppRouter = () => {
